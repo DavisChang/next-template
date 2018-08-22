@@ -1,0 +1,19 @@
+{
+  "name": "vr-promotion-event",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Davis Chang(davis_chang@htc.com)",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^6.1.1",
+    "next-routes": "^1.4.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
