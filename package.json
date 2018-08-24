@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
-    "build": "next build",
+    "build": "next build && node ./scripts/default-lang",
     "start": "NODE_ENV=production node server.js"
   },
   "author": "Davis Chang(davis_chang@htc.com)",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-react-intl": "^2.4.0",
+    "glob": "^7.1.2",
     "next": "^6.1.1",
     "next-routes": "^1.4.2",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "react-intl": "^2.4.0"
   }
 }
